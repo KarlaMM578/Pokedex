@@ -1,0 +1,83 @@
+img.pokedex {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+h1{
+    color: white;
+}
+
+body{
+    background-image: url(../assets/img/fondo.png);
+    background-repeat: no-repeat;
+}
+
+.pokeC {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 12% 0 12%;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.imgcontainer {
+    background-color: white;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*margin: 12% 13.6%;
+    padding: 1% 4.1%;*/
+    top: 225px;
+    left: 413px;
+    width: 188px;
+    height: 127px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.in {
+    margin-top: 35%;
+    margin-left: 15.25%;
+    border-radius: 5%;
+    /*width: 140px;
+    height: 55px;*/
+    top: -20px;
+    left: 220px;
+    width: 93px;
+    height: 43px;
+    color: white;
+    background-color: rgb(85, 171, 98);
+    /* rgb(85, 171, 98) */
+    position: absolute;
+}
+
+.center {
+    margin-top: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 58%;
+}
+
+.pokeinput,
+.pokeinput::placeholder,
+.pokeinput:focus {
+    background-color: rgb(85, 171, 98);
+    border: none;
+    color: black;
+}
+
+.pokeinput:hover {
+    border: solid;
+    border-color: rgb(0, 0, 0);
+}
